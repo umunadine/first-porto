@@ -77,6 +77,11 @@ h3{
 .cinq{
     font-family: sans-serif;
 }
+footer{
+    font-family: sans-serif;
+    background-color: black;
+    color:white;  
+}
 
 
 @media screen and (min-width: 480px) {
