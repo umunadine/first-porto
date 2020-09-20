@@ -32,8 +32,13 @@ header{
     position: relative;
     
 }
+h2{
+    text-align:center;
+    font-weight:bold;
+    text-transform: uppercase;
+}
 .deux{
-    test-align:center;
+    text-align:center;
     position:absolute;
     top:40%;
     left:10%;
@@ -44,6 +49,11 @@ header{
     float:left;
     height:150px;
     width:150px;
+}
+.quatre{
+    flex-direction:column;
+    flex-wrap:wrap;
+    
 }
 .cinq>img{
     width:275px;
