@@ -54,6 +54,9 @@ h3{
 .trois{
     font-family: sans-serif;
 }
+.trois>p{
+    text-align:right;
+}
 
 #black,#white,#blacknwhite,#color{
      /*background-color: lightgrey;*/
@@ -73,13 +76,14 @@ h3{
 .cinq>img{
     width:150px;
     height:150px;  
+    justify-content:space-between;
 }
 .cinq{
     font-family: sans-serif;
 }
 footer{
     font-family: sans-serif;
-    background-color:rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.5);
     color:white;
     border:1px grey;;
     padding:10px;
@@ -90,7 +94,7 @@ footer{
 
 @media screen and (min-width: 480px) {
     body {
-        background-color: white;
+        background-color: lightgray;
         color: black;
     }
 }
